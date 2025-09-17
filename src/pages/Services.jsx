@@ -5,9 +5,9 @@ import emailjs from '@emailjs/browser'
 
 export default function Services(){
   const services = [
-    {title: 'Nanny', description: 'Experienced childcare professionals', image: '/placeholder1.txt'},
-    {title: 'Cook', description: 'Trained cooks for home and small events', image: '/placeholder2.txt'},
-    {title: 'Cleaner', description: 'Reliable home cleaning staff', image: '/placeholder3.txt'}
+    {title: 'Nanny', description: 'Experienced childcare professionals', image: '/images/nanny.jpg'},
+    {title: 'Cook', description: 'Trained cooks for home and small events', image: '/images/cook.jpg'},
+    {title: 'Cleaner', description: 'Reliable home cleaning staff', image: '/images/cleaner.jpg'}
   ]
 
   const [form, setForm] = useState({name:'', phone:'', email:'', type:'Nanny', date:'', notes:''})

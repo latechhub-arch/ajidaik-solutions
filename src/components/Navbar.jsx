@@ -4,7 +4,7 @@ export default function Navbar(){
     <header className="bg-blue-900 text-white">
       <div className="container mx-auto flex justify-between items-center p-5">
         <Link to="/" className="flex items-center gap-3">
-          <img src="/ajidaik-logo.svg" alt="AjiDaik" className="h-10 w-auto"/>
+          <img src="/images/logo/logo.png" alt="AjiDaik" className="h-20 w-auto"/>
           <span className="text-xl font-bold">AjiDaik Solutions</span>
         </Link>
         <nav>
