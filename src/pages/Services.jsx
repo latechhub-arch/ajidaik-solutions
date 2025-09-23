@@ -5,9 +5,36 @@ import emailjs from '@emailjs/browser'
 
 export default function Services(){
   const services = [
-    {title: 'Nanny', description: 'Experienced childcare professionals', image: '/images/nanny.jpg'},
-    {title: 'Cook', description: 'Trained cooks for home and small events', image: '/images/cook.jpg'},
-    {title: 'Cleaner', description: 'Reliable home cleaning staff', image: '/images/cleaner.jpg'}
+    {
+      title: 'Nanny',
+      description: 'Experienced childcare professionals who provide attentive care, educational support, and a safe environment for your little ones.',
+      image: '/images/nanny.jpg'
+    },
+    {
+      title: 'Chef',
+      description: 'Professional chefs skilled in preparing diverse cuisines, healthy meals, and catering for home dining or small private events.',
+      image: '/images/cook.jpg'
+    },
+    {
+      title: 'Cleaner',
+      description: 'Reliable home and office cleaning staff trained in thorough housekeeping, laundry, and maintaining hygienic living spaces.',
+      image: '/images/cleaner.jpg'
+    },
+    {
+      title: 'Caretaker',
+      description: 'Trusted caretakers to manage and maintain your home or property, ensuring safety, organization, and smooth day-to-day running.',
+      image: '/images/caretaker.jpg'
+    },
+    {
+      title: 'Caregiver',
+      description: 'Compassionate caregivers who provide support for the elderly, sick, or people with special needs. They are trained to offer assistance with daily activities, companionship, and basic medical care.',
+      image: '/images/caregiver.jpg'
+    },
+    {
+      title: 'Shamba Boys',
+      description: 'Skilled shamba boys for gardening, landscaping, farm work, and general outdoor maintenance. They handle planting, weeding, harvesting, and upkeep of compound areas, keeping your land productive and beautiful.',
+      image: '/images/shamba-boy.jpg'
+    }
   ]
 
   const [form, setForm] = useState({name:'', phone:'', email:'', type:'Nanny', date:'', notes:''})
@@ -19,7 +46,6 @@ export default function Services(){
     e.preventDefault()
     setStatus('Sending...')
     try{
-      // NOTE: Replace 'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', 'YOUR_PUBLIC_KEY' with your EmailJS credentials
       const templateParams = {
         to_email: 'ajidaiksolutions@gmail.com',
         name: form.name,
@@ -46,8 +72,9 @@ export default function Services(){
           {services.map((s,i)=>(<ServiceCard key={i} {...s}/>))}
         </div>
 
+        {/* Request Form */}
         <div className="max-w-2xl mx-auto bg-white rounded-xl p-6 shadow">
-          <h3 className="text-2xl font-semibold mb-4">Request House Help</h3>
+          <h3 className="text-2xl font-semibold mb-4">Request Service</h3>
           <form onSubmit={handleSubmit} className="space-y-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <input name="name" value={form.name} onChange={handleChange} required placeholder="Full name" className="border p-3 rounded w-full"/>
@@ -56,7 +83,13 @@ export default function Services(){
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <input name="email" value={form.email} onChange={handleChange} type="email" required placeholder="Email" className="border p-3 rounded w-full"/>
               <select name="type" value={form.type} onChange={handleChange} className="border p-3 rounded w-full">
-                <option>Nanny</option><option>Cook</option><option>Cleaner</option><option>Caregiver</option><option>House Help</option>
+                <option>Nannies/Househelps</option>
+                <option>Chefs</option>
+                <option>Cleaners</option>
+                <option>Caretakers</option>
+                <option>Shamba Boys</option>
+                <option>Caregiver</option>
+                <option>House Helps</option>
               </select>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
