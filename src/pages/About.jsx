@@ -26,8 +26,8 @@ export default function About() {
             <div className="bg-white shadow rounded-xl overflow-hidden">
               <img src="/images/ceo.jpg" alt="CEO" className="w-full h-56 object-cover" />
               <div className="p-4">
-                <h4 className="font-semibold text-lg">Chief Executive Officer</h4>
-                <p className="text-gray-600 text-sm">Visionary leader driving our mission forward.</p>
+                <h4 className="font-semibold text-lg">Message from the Chief Executive Officer</h4>
+                <p className="text-gray-600 text-sm">“At AjiDaik Solutions, our vision is to empower businesses with innovative and dependable solutions that foster growth, efficiency, and long-term success. We believe in building lasting partnerships by understanding the unique challenges of each client and delivering tailored services that truly make a difference. Guided by a commitment to excellence, integrity, and customer satisfaction, our team strives to exceed expectations and create value in every engagement. With AjiDaik Solutions, you can be confident that you have a partner dedicated to helping you achieve your goals today and into the future.”</p>
               </div>
             </div>
 
@@ -35,14 +35,14 @@ export default function About() {
             <div className="bg-white shadow rounded-xl overflow-hidden">
               <img src="/images/hod-training.jpg" alt="HOD Training" className="w-full h-56 object-cover" />
               <div className="p-4">
-                <h4 className="font-semibold text-lg">Head of Training</h4>
-                <p className="text-gray-600 text-sm">Ensuring our staff are well-prepared and skilled.</p>
+                <h4 className="font-semibold text-lg">Message from the Head of Training</h4>
+                <p className="text-gray-600 text-sm">“At AjiDaik Solutions, we recognize that knowledge and skills are the foundation of growth and innovation. Our training programs are designed not just to transfer information, but to inspire confidence, build capacity, and equip individuals and teams to thrive in today’s fast-changing world. We take pride in delivering practical, industry-relevant training that bridges the gap between learning and real-world application. By choosing AjiDaik Solutions, you are investing in a learning experience that empowers people, transforms organizations, and drives long-term success.”</p>
               </div>
             </div>
 
             {/* Board of Directors */}
             <div className="bg-white shadow rounded-xl overflow-hidden">
-              <img src="/images/board.jpg" alt="Board of Directors" className="w-full h-56 object-cover" />
+              <img src="/images/board.png" alt="Board of Directors" className="w-full h-56 object-cover" />
               <div className="p-4">
                 <h4 className="font-semibold text-lg">Board of Directors</h4>
                 <p className="text-gray-600 text-sm">Providing strategic guidance and oversight.</p>

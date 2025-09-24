@@ -59,7 +59,7 @@ export default function Home() {
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <img
-              src="/images/househelp.jpg"
+              src="/images/nanny.jpg"
               alt="House Help"
               className="rounded-xl shadow-lg object-cover h-64 w-full"
             />
@@ -69,7 +69,7 @@ export default function Home() {
               className="rounded-xl shadow-lg object-cover h-64 w-full"
             />
             <img
-              src="/images/gardener.jpg"
+              src="/images/shamba-boy.jpg"
               alt="Gardener"
               className="rounded-xl shadow-lg object-cover h-64 w-full"
             />
