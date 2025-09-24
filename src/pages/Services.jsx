@@ -31,7 +31,7 @@ export default function Services(){
       image: '/images/caregiver.jpg'
     },
     {
-      title: 'Shamba Boys',
+      title: 'Gardeners',
       description: 'Skilled shamba boys for gardening, landscaping, farm work, and general outdoor maintenance. They handle planting, weeding, harvesting, and upkeep of compound areas, keeping your land productive and beautiful.',
       image: '/images/shamba-boy.jpg'
     }
@@ -87,8 +87,8 @@ export default function Services(){
                 <option>Chefs</option>
                 <option>Cleaners</option>
                 <option>Caretakers</option>
-                <option>Shamba Boys</option>
-                <option>Caregiver</option>
+                <option>Gardeners</option>
+                <option>Caregivers</option>
                 <option>House Helps</option>
               </select>
             </div>
