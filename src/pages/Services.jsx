@@ -6,27 +6,27 @@ import emailjs from '@emailjs/browser'
 export default function Services(){
   const services = [
     {
-      title: 'Nanny',
+      title: 'Nannies and House Helps',
       description: 'Experienced childcare professionals who provide attentive care, educational support, and a safe environment for your little ones.',
       image: '/images/nanny.jpg'
     },
     {
-      title: 'Chef',
+      title: 'Chefs',
       description: 'Professional chefs skilled in preparing diverse cuisines, healthy meals, and catering for home dining or small private events.',
       image: '/images/cook.jpg'
     },
     {
-      title: 'Cleaner',
+      title: 'Cleaners',
       description: 'Reliable home and office cleaning staff trained in thorough housekeeping, laundry, and maintaining hygienic living spaces.',
       image: '/images/cleaner.jpg'
     },
     {
-      title: 'Caretaker',
+      title: 'Caretakers',
       description: 'Trusted caretakers to manage and maintain your home or property, ensuring safety, organization, and smooth day-to-day running.',
       image: '/images/caretaker.jpg'
     },
     {
-      title: 'Caregiver',
+      title: 'Caregivers',
       description: 'Compassionate caregivers who provide support for the elderly, sick, or people with special needs. They are trained to offer assistance with daily activities, companionship, and basic medical care.',
       image: '/images/caregiver.jpg'
     },
