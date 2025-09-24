@@ -82,7 +82,7 @@ export default function Home() {
         <div className="container mx-auto px-6 text-center">
           <h3 className="text-2xl font-bold text-blue-900 mb-4">Why Choose Us?</h3>
           <p className="max-w-2xl mx-auto text-gray-700">
-            Over <span className="font-semibold">Happy families</span> in Kenya trust AjiDaik Solutions 
+            <span className="font-semibold">Happy families</span> in Kenya trust AjiDaik Solutions 
             for reliable, professional, and caring domestic staff. We don’t just connect you with workers —
             we provide peace of mind.
           </p>
