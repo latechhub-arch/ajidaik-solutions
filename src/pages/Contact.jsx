@@ -13,7 +13,7 @@ export default function Contact(){
     setStatus('Sending...')
     try{
       const templateParams = {
-        to_email: 'ajidaiksolutions@gmail.com',
+        to_email: 'info@ajidaiksolutions.co.ke',
         name: form.name,
         email: form.email,
         subject: form.subject,
@@ -45,7 +45,7 @@ export default function Contact(){
         <div className="mt-6 text-sm text-gray-700">
           <p>📍 Bamburi, Mombasa</p>
           <p>📞 +254 733 540 829</p>
-          <p>📧 info@ajidaiksolutions.com</p>
+          <p>📧 info@ajidaiksolutions.co.ke</p>
           <p>🕒 Monday – Sunday (9:00 AM – 7:00 PM)</p>
         </div>
       </div>
