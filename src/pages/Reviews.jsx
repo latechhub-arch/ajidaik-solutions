@@ -6,35 +6,35 @@ const reviews = [
     title: "Client – Mombasa",
     message:
       "I hired a house help through AjiDaik Solutions, and she has been amazing. Professional, punctual, and well-trained. The agency handled everything smoothly!",
-    image: "https://randomuser.me/api/portraits/women/65.jpg",
+    image: '/images/65.jpg',
   },
   {
     name: "Peter Ochieng",
     title: "Client – Nairobi",
     message:
       "AjiDaik connected me with a reliable shamba boy who transformed my compound. I really appreciate their efficiency and follow-up support.",
-    image: "https://randomuser.me/api/portraits/men/23.jpg",
+    image: '/images/23.jpg',
   },
   {
     name: "Grace Atieno",
     title: "Client – Kisumu",
     message:
       "Finding a caregiver for my elderly mother was stressful until I found AjiDaik Solutions. The caregiver is kind, skilled, and trustworthy. Highly recommended!",
-    image: "https://randomuser.me/api/portraits/women/42.jpg",
+    image: '/images/42.jpg',
   },
   {
-    name: "Samuel Mwangi",
+    name: "Rishad Amana",
     title: "Property Owner – Nyali",
     message:
       "I needed a caretaker for my apartments, and AjiDaik provided a dependable and responsible person within days. Their process is quick and transparent.",
-    image: "https://randomuser.me/api/portraits/men/54.jpg",
+    image: '/images/54.jpg',
   },
   {
     name: "Lucy Wambui",
     title: "Client – Nakuru",
     message:
       "The nanny I got through AjiDaik has been a blessing to our family. She is patient with the kids and always keeps the home neat and organized.",
-    image: "https://randomuser.me/api/portraits/women/37.jpg",
+    image: '/images/37.jpg',
   },
 ];
 
