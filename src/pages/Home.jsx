@@ -9,30 +9,30 @@ export default function Home() {
   const reviews = [
     {
       name: "Grace Mwangi",
-      title: "HR Manager",
+      title: "Homeowner, Nyali",
       message:
-        "AjiDaik Solutions helped our company modernize its IT systems. Their support team is always responsive and professional.",
+        "AjiDaik Solutions connected me with a trustworthy and hardworking house help who has become part of our family. I’m truly grateful for their professionalism.",
       image: "https://randomuser.me/api/portraits/women/44.jpg",
     },
     {
       name: "Samuel Otieno",
-      title: "Small Business Owner",
+      title: "Elderly Care Client, Kisumu",
       message:
-        "The website they built for our business is both beautiful and functional. Highly recommend their services!",
+        "Their caregiver service is exceptional. The staff is kind, respectful, and well-trained. My elderly mother is in safe hands thanks to AjiDaik Solutions.",
       image: "https://randomuser.me/api/portraits/men/32.jpg",
     },
     {
       name: "Beatrice Wanjiru",
-      title: "Training Graduate",
+      title: "Parent, Nairobi",
       message:
-        "I learned a lot through their training programs. It gave me the confidence to start freelancing online.",
+        "Finding a reliable nanny was a struggle until I came across AjiDaik Solutions. They screened and trained the perfect candidate for our home.",
       image: "https://randomuser.me/api/portraits/women/68.jpg",
     },
     {
       name: "Kelvin Mutua",
-      title: "IT Consultant",
+      title: "Property Manager, Mombasa",
       message:
-        "Working with AjiDaik Solutions was seamless — their attention to detail and technical knowledge really impressed me.",
+        "We hired caretakers and gardeners through AjiDaik Solutions, and their quality of service exceeded our expectations. I highly recommend them.",
       image: "https://randomuser.me/api/portraits/men/50.jpg",
     },
   ];
@@ -62,9 +62,9 @@ export default function Home() {
           Welcome to AjiDaik Solutions
         </h2>
         <p className="text-center max-w-3xl mx-auto text-gray-700 leading-relaxed mb-10">
-          We connect families with trusted, trained, and professional domestic staff. 
+          We connect families and businesses with trusted, trained, and professional domestic staff. 
           Our mission is to bring care, trust, and comfort to every home by recruiting and 
-          placing reliable house helps, caregivers, gardeners, chefs, and more.
+          placing reliable house helps, caregivers, gardeners, caretakers, and more.
         </p>
 
         {/* Quick Services Grid */}
@@ -72,19 +72,19 @@ export default function Home() {
           <div className="bg-white shadow-lg rounded-xl p-6 hover:shadow-xl transition">
             <h3 className="font-bold text-xl text-blue-900 mb-3">House Helps</h3>
             <p className="text-gray-600">
-              Trained and dependable housekeepers to keep your home organized and clean.
+              Skilled and dependable house helps who keep your home organized, clean, and running smoothly.
             </p>
           </div>
           <div className="bg-white shadow-lg rounded-xl p-6 hover:shadow-xl transition">
             <h3 className="font-bold text-xl text-blue-900 mb-3">Caregivers</h3>
             <p className="text-gray-600">
-              Compassionate and skilled caregivers to support children, elderly, and patients.
+              Compassionate caregivers who provide quality assistance to children, elderly family members, and patients.
             </p>
           </div>
           <div className="bg-white shadow-lg rounded-xl p-6 hover:shadow-xl transition">
-            <h3 className="font-bold text-xl text-blue-900 mb-3">Gardeners</h3>
+            <h3 className="font-bold text-xl text-blue-900 mb-3">Gardeners & Caretakers</h3>
             <p className="text-gray-600">
-              Dedicated gardeners to maintain beautiful, green, and healthy outdoor spaces.
+              Reliable professionals who ensure your compound and property are well maintained, clean, and secure.
             </p>
           </div>
         </div>
@@ -100,33 +100,42 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Photo Section */}
+      {/* Meet Our Professionals Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold text-center mb-8 text-blue-900">
             Meet Our Professionals
           </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <img
-              src="/images/nanny.jpg"
-              alt="House Help"
-              className="rounded-xl shadow-lg object-cover h-64 w-full"
-            />
-            <img
-              src="/images/caregiver.jpg"
-              alt="Caregiver"
-              className="rounded-xl shadow-lg object-cover h-64 w-full"
-            />
-            <img
-              src="/images/shamba-boy.jpg"
-              alt="Gardener"
-              className="rounded-xl shadow-lg object-cover h-64 w-full"
-            />
+          <div className="grid md:grid-cols-3 gap-8 text-center">
+            <div>
+              <h4 className="font-semibold text-lg text-blue-900 mb-3">House Help</h4>
+              <img
+                src="/images/nanny.jpg"
+                alt="House Help"
+                className="rounded-xl shadow-lg object-cover h-64 w-full"
+              />
+            </div>
+            <div>
+              <h4 className="font-semibold text-lg text-blue-900 mb-3">Caregiver</h4>
+              <img
+                src="/images/caregiver.jpg"
+                alt="Caregiver"
+                className="rounded-xl shadow-lg object-cover h-64 w-full"
+              />
+            </div>
+            <div>
+              <h4 className="font-semibold text-lg text-blue-900 mb-3">Gardener / Caretaker</h4>
+              <img
+                src="/images/shamba-boy.jpg"
+                alt="Gardener"
+                className="rounded-xl shadow-lg object-cover h-64 w-full"
+              />
+            </div>
           </div>
         </div>
       </section>
 
-      {/* 🌟 Featured Reviews Carousel */}
+      {/* Reviews Carousel */}
       <section className="bg-blue-50 py-16">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold text-blue-900 mb-10">
@@ -159,13 +168,13 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Trust/Impact */}
+      {/* Why Choose Us */}
       <section className="py-12 bg-blue-50">
         <div className="container mx-auto px-6 text-center">
           <h3 className="text-2xl font-bold text-blue-900 mb-4">Why Choose Us?</h3>
           <p className="max-w-2xl mx-auto text-gray-700">
-            <span className="font-semibold">Happy families</span> in Kenya trust AjiDaik Solutions 
-            for reliable, professional, and caring domestic staff. We don’t just connect you with workers — 
+            <span className="font-semibold">Happy families and businesses</span> across Kenya trust AjiDaik Solutions 
+            for reliable, professional, and caring domestic staff. We don’t just connect you with workers —
             we provide peace of mind.
           </p>
         </div>
