@@ -2,39 +2,39 @@ import React from "react";
 
 const reviews = [
   {
-    name: "Grace Mwangi",
-    title: "HR Manager, Coastal Logistics",
+    name: "Mary Njeri",
+    title: "Client – Mombasa",
     message:
-      "AjiDaik Solutions delivered exceptional IT support and web solutions for our business. Their professionalism and reliability are unmatched.",
-    image: "https://randomuser.me/api/portraits/women/44.jpg",
+      "I hired a house help through AjiDaik Solutions, and she has been amazing. Professional, punctual, and well-trained. The agency handled everything smoothly!",
+    image: "https://randomuser.me/api/portraits/women/65.jpg",
   },
   {
-    name: "Samuel Otieno",
-    title: "Small Business Owner",
+    name: "Peter Ochieng",
+    title: "Client – Nairobi",
     message:
-      "The team helped me establish a strong online presence for my startup. I highly recommend their services to anyone who values quality and timely delivery.",
-    image: "https://randomuser.me/api/portraits/men/32.jpg",
+      "AjiDaik connected me with a reliable shamba boy who transformed my compound. I really appreciate their efficiency and follow-up support.",
+    image: "https://randomuser.me/api/portraits/men/23.jpg",
   },
   {
-    name: "Beatrice Wanjiru",
-    title: "Training Graduate",
+    name: "Grace Atieno",
+    title: "Client – Kisumu",
     message:
-      "I enrolled in their digital skills training and it completely transformed my career path. The trainers are knowledgeable and supportive.",
-    image: "https://randomuser.me/api/portraits/women/68.jpg",
+      "Finding a caregiver for my elderly mother was stressful until I found AjiDaik Solutions. The caregiver is kind, skilled, and trustworthy. Highly recommended!",
+    image: "https://randomuser.me/api/portraits/women/42.jpg",
   },
   {
-    name: "Kelvin Mutua",
-    title: "IT Consultant",
+    name: "Samuel Mwangi",
+    title: "Property Owner – Nyali",
     message:
-      "Working with AjiDaik Solutions was a seamless experience. Their technical expertise and attention to detail really stand out.",
-    image: "https://randomuser.me/api/portraits/men/50.jpg",
+      "I needed a caretaker for my apartments, and AjiDaik provided a dependable and responsible person within days. Their process is quick and transparent.",
+    image: "https://randomuser.me/api/portraits/men/54.jpg",
   },
   {
-    name: "Diana Cherono",
-    title: "Marketing Director, Ocean View Resort",
+    name: "Lucy Wambui",
+    title: "Client – Nakuru",
     message:
-      "They built a modern website for our resort that has significantly boosted our online bookings. Excellent communication and great results!",
-    image: "https://randomuser.me/api/portraits/women/27.jpg",
+      "The nanny I got through AjiDaik has been a blessing to our family. She is patient with the kids and always keeps the home neat and organized.",
+    image: "https://randomuser.me/api/portraits/women/37.jpg",
   },
 ];
 
