@@ -8,32 +8,39 @@ import "slick-carousel/slick/slick-theme.css"
 export default function Home() {
   const reviews = [
     {
-      name: "Grace Mwangi",
-      title: "Homeowner, Nyali",
+      name: "Mary Njeri",
+      title: "Client – Mombasa",
       message:
-        "AjiDaik Solutions connected me with a trustworthy and hardworking house help who has become part of our family. I’m truly grateful for their professionalism.",
-      image: "https://randomuser.me/api/portraits/women/44.jpg",
+        "I hired a house help through AjiDaik Solutions, and she has been amazing. Professional, punctual, and well-trained. The agency handled everything smoothly!",
+      image: "/images/65.jpg",
     },
     {
-      name: "Samuel Otieno",
-      title: "Elderly Care Client, Kisumu",
+      name: "Peter Ochieng",
+      title: "Client – Nairobi",
       message:
-        "Their caregiver service is exceptional. The staff is kind, respectful, and well-trained. My elderly mother is in safe hands thanks to AjiDaik Solutions.",
-      image: "https://randomuser.me/api/portraits/men/32.jpg",
+        "AjiDaik connected me with a reliable shamba boy who transformed my compound. I really appreciate their efficiency and follow-up support.",
+      image: "/images/23.jpg",
     },
     {
-      name: "Beatrice Wanjiru",
-      title: "Parent, Nairobi",
+      name: "Grace Atieno",
+      title: "Client – Kisumu",
       message:
-        "Finding a reliable nanny was a struggle until I came across AjiDaik Solutions. They screened and trained the perfect candidate for our home.",
-      image: "https://randomuser.me/api/portraits/women/68.jpg",
+        "Finding a caregiver for my elderly mother was stressful until I found AjiDaik Solutions. The caregiver is kind, skilled, and trustworthy. Highly recommended!",
+      image: "/images/42.jpg",
     },
     {
-      name: "Kelvin Mutua",
-      title: "Property Manager, Mombasa",
+      name: "Rishad Amana",
+      title: "Property Owner – Nyali",
       message:
-        "We hired caretakers and gardeners through AjiDaik Solutions, and their quality of service exceeded our expectations. I highly recommend them.",
-      image: "https://randomuser.me/api/portraits/men/50.jpg",
+        "I needed a caretaker for my apartments, and AjiDaik provided a dependable and responsible person within days. Their process is quick and transparent.",
+      image: "/images/54.jpg",
+    },
+    {
+      name: "Lucy Wambui",
+      title: "Client – Nakuru",
+      message:
+        "The nanny I got through AjiDaik has been a blessing to our family. She is patient with the kids and always keeps the home neat and organized.",
+      image: "/images/37.jpg",
     },
   ];
 
@@ -174,7 +181,7 @@ export default function Home() {
           <h3 className="text-2xl font-bold text-blue-900 mb-4">Why Choose Us?</h3>
           <p className="max-w-2xl mx-auto text-gray-700">
             <span className="font-semibold">Happy families and businesses</span> across Kenya trust AjiDaik Solutions 
-            for reliable, professional, and caring domestic staff. We don’t just connect you with workers —
+            for reliable, professional, and caring domestic staff. We don’t just connect you with workers — 
             we provide peace of mind.
           </p>
         </div>
