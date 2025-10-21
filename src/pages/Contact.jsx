@@ -44,7 +44,7 @@ export default function Contact(){
         </form>
         <div className="mt-6 text-sm text-gray-700">
           <p>📍 Bamburi, Mombasa</p>
-          <p>📞 +254 733 540 829</p>
+          <p>📞 +254117613599</p>
           <p>📧 info@ajidaiksolutions.co.ke</p>
           <p>🕒 Monday – Sunday (9:00 AM – 7:00 PM)</p>
         </div>
