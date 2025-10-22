@@ -1,5 +1,5 @@
 export default function WhatsAppButton(){
-  const phone = '+254733540829'
+  const phone = '+254117613599'
   const url = `https://wa.me/${phone.replace('+','')}`
   return (
     <a href={url} target="_blank" rel="noreferrer" aria-label="Chat on WhatsApp">
