@@ -127,7 +127,7 @@ export default function About() {
         <div className="text-center">
           <h3 className="text-2xl font-semibold mb-4 text-blue-900">Our Services</h3>
           <p className="max-w-2xl mx-auto text-gray-700 mb-6">
-            Discover the wide range of household and domestic services we offer.
+            Discover the wide range of household and domestic services we offer...
           </p>
           <a
             href="/services"
